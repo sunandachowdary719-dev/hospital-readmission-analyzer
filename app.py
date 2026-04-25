@@ -12,7 +12,7 @@ st.markdown("---")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("FY_2024_Hospital_Readmissions_Reduction_Program_Hospital.csv")
+    df = pd.read_csv("FY_2026_Hospital_Readmissions_Reduction_Program_Hospital.csv")
     df.columns = (df.columns.str.strip().str.lower()
                   .str.replace(' ', '_').str.replace('/', '_'))
     df['number_of_readmissions'] = pd.to_numeric(
