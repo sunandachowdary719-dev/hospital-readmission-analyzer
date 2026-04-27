@@ -1,5 +1,3 @@
-# hospital-readmission-analyzer
-CMS Hospital Readmissions Analysis + Streamlit Dashboard
 # Hospital Readmissions Analysis
 Analysis of CMS HRRP data across 2,833 U.S. hospitals.
 
